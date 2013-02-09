@@ -9,7 +9,7 @@
 #include "../include/chatty.h"
 #include <stdlib.h>
 
-/* main */
+/* main function implementation  */
 int main(int argc,char *argv[]){
 	/* initialize chatty */
 	if(!chatty_init())
