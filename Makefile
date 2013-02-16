@@ -4,6 +4,6 @@
 SOURCE_DIR = src/
 
 all:
-	cd $(SOURCE_DIR);make;
+	if [ ! -d bin/ ];then mkdir bin/;fi;cd $(SOURCE_DIR);make;
 
 
